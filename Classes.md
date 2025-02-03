@@ -119,7 +119,7 @@ class Child extends Parent {
 }
 
 Parent obj = new Child(); // Polymorphism
-obj.display();
+obj.display(); 
 ```
 
 ### **Key Concepts:**

@@ -1,0 +1,1 @@
+- he `Integer` caching range (`-128 to 127`) caused confusion. (Integers in this range are **cached**, so `==` works for them but not for numbers outside this range).
